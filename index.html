@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jean</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <button id="showImageButton">CLICK ME MISS JEAN</button>
+    <img id="image" src="" alt="Image" style="display: none;">
+
+    <script>
+        
+        document.getElementById("showImageButton").addEventListener("click", function() {
+            const image = document.getElementById("image");
+            image.src ="img/jean.jpg"
+            image.style.display = "block"; // Display the image
+        });
+    </script>
+</body>
+</html>

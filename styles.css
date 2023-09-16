@@ -1,0 +1,7 @@
+button{display: flex;
+align-items: center;
+margin: auto;
+justify-content: center;
+height: 20vh;
+background: linear-gradient(red,pink);
+font-weight: 100%;}
